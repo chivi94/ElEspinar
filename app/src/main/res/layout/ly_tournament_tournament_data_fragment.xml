@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/fragment_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tournament_data_title"
+                style="@style/titleTextStyle" />
+
+            <TextView
+                android:id="@+id/tournament_data_text"
+                style="@style/textStyle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="-20dp">
+                <LinearLayout
+                    android:id="@+id/lly_tournament_data_round"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="0.33"/>
+                <LinearLayout
+                    android:id="@+id/lly_tournament_data_points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="0.33"/>
+                <LinearLayout
+                    android:id="@+id/lly_tournament_data_prize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="0.33"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/tournament_data_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-150dp"
+                android:layout_marginBottom="-100dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

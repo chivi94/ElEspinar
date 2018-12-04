@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/fragment_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/history_committee_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/fragment_margin"
+                android:gravity="center_horizontal"
+                android:textColor="@color/textTitleColor"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/history_committee_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/fragment_margin"
+                android:gravity="center_horizontal"
+                android:textColor="@color/textColor" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/fragment_margin"
+                android:gravity="center_horizontal"
+                android:src="@drawable/foto_presidente" />
+
+            <TextView
+                android:id="@+id/history_committee_president"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/fragment_margin"
+                android:gravity="center_horizontal"
+                android:textColor="@color/textColor" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
