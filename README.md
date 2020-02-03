@@ -1,5 +1,5 @@
 # Aplicación para El Espinar
-Aplicación para el torneo de tenisv El Espinar.
+Aplicación para el torneo de tenis El Espinar.
 
 Esta aplicación fue realizada durante el curso 2017/2018 por dos alumnos de la Escuela de Ingeniería Informática de Valladolid.
 - Antonio Román López (https://github.com/ttoso).
